@@ -38,7 +38,7 @@ const fortunes = [
   "The devil is in the details; pay attention to small but important things.",
   "The pot calling the kettle black; criticizing someone for a fault you also have.",
   "Playing with fire; engaging in risky behavior.",
-  "A wolf in sheep's clothing; someone who appears harmless but is actually dangerous.",
+  "A wolf in sheep's clothing; someone who appears harmless but is actually dangerous."
   ];
   
   const openCookieBtn = document.getElementById('open-cookie-btn');
