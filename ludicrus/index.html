@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ludus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div><strong>Population Fun</strong></div>
+        <nav>
+            <a href="#">Explore</a>
+            <a href="#">Challenges</a>
+            <a href="#">Stats</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <h1>What's Your Ideal Height Range?</h1>
+    <div class="slider-container">
+        <label for="minHeight" class="slider-label">Min Height: <span id="minHeightValue">150 cm</span></label>
+        <input type="range" min="120" max="220" value="150" class="slider" id="minHeight">
+        <label for="maxHeight" class="slider-label">Max Height: <span id="maxHeightValue">180 cm</span></label>
+        <input type="range" min="120" max="220" value="180" class="slider" id="maxHeight">
+    </div>
+
+    <!-- Submit Button -->
+    <button class="submit-btn" id="submitBtn">Calculate My Match!</button>
+
+    <!-- Results Section -->
+    <div class="result" id="resultText"></div>
+
+    <!-- Confetti -->
+    <div class="confetti" id="confettiContainer"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
